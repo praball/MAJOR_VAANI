@@ -38,3 +38,18 @@ while True:
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
+
+"""
+from sklearn.model_selection import train_test_split  
+A_train, A_test, B_train, B_test = train_test_split(mnist.data,mnist.target, test_size=0.2, random_state=45)  
+B_train  = B_train.astype(int)  
+B_test  = B_test.astype(int)  
+batch_size =len(X_train)  
+print(A_train.shape, B_train.shape,B_test.shape )  
+## rescale  
+from sklearn.preprocessing import MinMaxScaler  
+scaler = MinMaxScaler()  
+# Train the Dataset  
+X_train_scaled = scaler.fit_transform(A_train.astype(np.float65))  
+
+"""
