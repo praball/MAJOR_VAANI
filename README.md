@@ -1,5 +1,6 @@
 # MAJOR_VAANI
 Repository for major project named Vaani. Used to predict Sign Language used by people who are dumb and convert it to text.
+Our goal is to achieve maximum possible accuracy for achieving great results and hence we are continously and keenly invloved in this project and improving the models as we learn through each of them.
 Images:
 1. CNN algorithm used with canny edge detection, gray scaling and SIFT/SURF desc. algorithm:<br>
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/582f0198-2940-4e38-a3d4-2b4636511a46)
