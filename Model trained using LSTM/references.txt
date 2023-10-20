@@ -1,0 +1,14 @@
+https://www.mdpi.com/2076-3417/12/19/9700
+The RNN structure with LSTM configuration has been found to be a better architecture for the identification of temporal patterns in time series.
+It has been found that the approach where dense layers support the recurrent layer allows for an increased performance over models that only have the recurrent layer.
+The proposed LSTM-RNN model was tested in real-time and achieved a comparable accuracy score with other state-of-the-art RNN models.
+
+
+
+
+
+ It has been shown that the LSTM is good at processing sequence data and can mine timing information in the data (Hochreiter and Schmidhuber, 1997), as well as advantages in training longer sequence data, making it a suitable choice for dynamic gesture recognition.
+
+ Zhang Y, Peng L, Ma G, Man M and Liu S (2022) Dynamic Gesture Recognition Model Based on Millimeter-Wave Radar With ResNet-18 and LSTM. Front. Neurorobot. 16:903197. doi: 10.3389/fnbot.2022.903197
+
+https://www.frontiersin.org/articles/10.3389/fnbot.2022.903197/full#:~:text=LSTM%20can%20generate%20the%20path,article%20is%20a%20temporal%20problem.
