@@ -1,5 +1,5 @@
 # MAJOR_VAANI
-Repository for major project named Vaani. Used to predict Sign Language used by people who are dumb and convert it to text.
+Repository for major project named Vaani. Used to predict Sign Language used by people who are nonverbal and convert it to text.
 Our goal is to achieve maximum possible accuracy for achieving great results and hence we are continously and keenly invloved in this project and improving the models as we learn through each of them.
 Images:
 1. CNN algorithm with specific no hand recognition technique:
