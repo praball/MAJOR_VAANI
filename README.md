@@ -1,6 +1,12 @@
 # MAJOR_VAANI
-Repository for major project named Vaani. Used to predict Sign Language used by people who are nonverbal and convert it to text.
-Our goal is to achieve maximum possible accuracy for achieving great results and hence we are continously and keenly invloved in this project and improving the models as we learn through each of them.
+Vaani, a repository dedicated to a significant project, serves as a platform for predicting and converting nonverbal sign language into text.
+
+# Description:
+
+Engineered an innovative real-time sign language recognition system by seamlessly integrating both Machine Learning and advanced Deep Learning models. The model ensemble included the discriminative capabilities of Support Vector Machines (SVMs), the spatial hierarchies of Convolutional Neural Networks (CNNs), and the sequential memory retention of Long Short-Term Memory (LSTM). The robustness of the system was heightened by the incorporation of cutting-edge libraries, such as OpenCV for traditional computer vision and Mediapipe for precise hand keypoint detection. The entire system, meticulously implemented in Python, drew on the computational efficiency and flexibility of TensorFlow and Keras for deep learning tasks. The optimization efforts were directed towards achieving unparalleled real-time performance, underscoring a comprehensive understanding
+
+Our objective is to attain the highest achievable accuracy for optimal results. We are actively engaged in ongoing enhancements within the project, continually refining the models based on insights gained from each iteration.
+
 Images:
 1. CNN algorithm with specific no hand recognition technique:
 
