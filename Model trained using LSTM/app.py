@@ -3,11 +3,11 @@ from keras.utils import to_categorical
 from keras.models import model_from_json
 from keras.layers import LSTM, Dense
 from keras.callbacks import TensorBoard
-json_file = open("model.json", "r")
+json_file = open("D:\Major Project\MAJOR_VAANI\Model trained using LSTM\model.json", "r")
 model_json = json_file.read()
 json_file.close()
 model = model_from_json(model_json)
-model.load_weights("model.h5")
+model.load_weights("D:\Major Project\MAJOR_VAANI\Model trained using LSTM\model.h5")
 
 colors = []
 for i in range(0,20):
