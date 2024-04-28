@@ -12,3 +12,6 @@ The proposed LSTM-RNN model was tested in real-time and achieved a comparable ac
  Zhang Y, Peng L, Ma G, Man M and Liu S (2022) Dynamic Gesture Recognition Model Based on Millimeter-Wave Radar With ResNet-18 and LSTM. Front. Neurorobot. 16:903197. doi: 10.3389/fnbot.2022.903197
 
 https://www.frontiersin.org/articles/10.3389/fnbot.2022.903197/full#:~:text=LSTM%20can%20generate%20the%20path,article%20is%20a%20temporal%20problem.
+
+Parallel repo for updations:
+https://github.com/HBishnoi1947/Vaani-Major-Project-
