@@ -10,12 +10,10 @@ Our objective is to attain the highest achievable accuracy for optimal results. 
 ## Images:
 1. CNN algorithm with specific no hand recognition technique:
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/98c9eb43-8a6e-46da-9609-524df2561120)
-![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/c1e59b6d-d06c-42b4-b70f-f3ed376dd68a)
 <br>
 
 2. SVM algorithm used with canny edge detection, gray scaling and SIFT/SURF desc. algorithm:<br>
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/582f0198-2940-4e38-a3d4-2b4636511a46)
-![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/bb2d07f0-3cd4-467d-820d-1c4a3aa087d4)
 <br>
 
 4. Using CVZone, mediapipe for better hand gesture recognition:<br>
