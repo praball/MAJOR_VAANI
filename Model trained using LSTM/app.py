@@ -35,7 +35,8 @@ sequence = []
 sentence = []
 accuracy=[]
 predictions = []
-threshold = 0.8 
+threshold = 0.8
+captured_text = ""
 
 cap = cv2.VideoCapture(0)
 #trying to capture a video stream from a camera accessible at that network address and port 
@@ -84,21 +85,37 @@ with mp_hands.Hands(
 
                 if len(sentence) > 1: 
                     sentence = sentence[-1:]
-                    accuracy=accuracy[-1:]
+                    accuracy = accuracy[-1:]
 
         except Exception as e:
             # print(e)
             pass
             
         cv2.rectangle(frame, (0,0), (300, 40), (245, 117, 16), -1)
-        cv2.putText(frame,"Output: "+' '.join(sentence)+''.join(accuracy), (3,30), 
+        cv2.putText(frame,"Output: "+' '.join(sentence), (3,30), 
                        cv2.FONT_HERSHEY_TRIPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
         
+        cv2.putText(frame, "Captured Text:" + captured_text, (3, 60),
+                        cv2.FONT_HERSHEY_TRIPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+
         # Show to screen
         cv2.imshow('OpenCV Feed', frame)
 
         # Break 
-        if cv2.waitKey(10) & 0xFF == ord('q'):
+        key = cv2.waitKey(1) & 0xFF
+        if key == ord('p'):
+            captured_text += ' '.join(sentence)
+            cv2.imshow('OpenCV Feed', frame)  # Display the frame first
+            cv2.putText(frame, "Captured Text: " + captured_text, (3, 60),
+                        cv2.FONT_HERSHEY_TRIPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
+            cv2.imshow('OpenCV Feed', frame)  # Display the frame again with the captured text
+        elif key == ord('c'):
+            captured_text = ""
+        elif key == ord(' '):
+            captured_text = captured_text + " "
+        elif key == 8:  # 8 is the ASCII value for the backspace key
+            captured_text = captured_text[:-1]  # Remove the last character from the string
+        elif key == ord('q'):
             break
     cap.release()
     cv2.destroyAllWindows()
