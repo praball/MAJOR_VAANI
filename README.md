@@ -16,15 +16,15 @@ Our objective is to attain the highest achievable accuracy for optimal results. 
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/582f0198-2940-4e38-a3d4-2b4636511a46)
 <br>
 
-4. Using CVZone, mediapipe for better hand gesture recognition:<br>
+3. Using CVZone, mediapipe for better hand gesture recognition:<br>
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/1daee2ff-c263-4321-949c-cfb4d13a4c94)
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/6d687d4c-10c9-4f16-9f7d-06de06a217f6)
 <br>
 
-5. Using CVZ along with training of array df(npy) using LSTM, Tensorflow and Keras:<br>
+4. Using CVZ along with training of array df(npy) using LSTM, Tensorflow and Keras:<br>
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/41680ebc-ff86-4286-b5b1-d66aff4f4622)
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/bc42d37d-339d-4c0e-9cbd-ba366fc3aed8)
 <br>
 
-6. Sentences formation with LSTM model:<br>
+5. Sentences formation with LSTM model:<br>
 https://github.com/praball/MAJOR_VAANI/assets/92200181/8dc44a7c-a8d6-495a-8bfe-3ff2a6a239ea
