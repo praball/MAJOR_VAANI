@@ -26,5 +26,10 @@ Our objective is to attain the highest achievable accuracy for optimal results. 
 ![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/bc42d37d-339d-4c0e-9cbd-ba366fc3aed8)
 <br>
 
-5. Sentences formation with LSTM model:<br>
+5. Words and Sentences formation with LSTM model:<br>
 https://github.com/praball/MAJOR_VAANI/assets/92200181/8dc44a7c-a8d6-495a-8bfe-3ff2a6a239ea
+<br>
+
+6. Random Forest Implementation and rapid gesture conversion to Hindi words to form sentences:<br>
+![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/48f6868a-6183-4c91-8b02-777bbbccaca3)
+![image](https://github.com/praball/MAJOR_VAANI/assets/92200181/8d234e34-e359-4bb1-aea4-c9134881e3a4)
